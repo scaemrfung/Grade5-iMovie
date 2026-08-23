@@ -63,7 +63,62 @@ footer .inner{max-width:760px;margin:0 auto}
 footer h2{color:#fff;font-size:1.25rem;margin-bottom:8px}
 footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 @media print{.site-header,.jump,.btn-row{display:none!important}body{background:#fff}}
-</style></head><body><header class="site-header"><div class="inner"><a class="logo" href="#top"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 2.5v11L14 8 4 2.5z"/></svg></span>iMovie Studio</a><nav class="nav" aria-label="Primary"><a href="#lessons">Lessons</a><a href="#projects">Projects</a><a href="#teacher">Teacher</a></nav></div></header><nav class="jump" aria-label="Page sections"><div class="inner"><a href="#top">Overview</a><a href="#lessons">Lessons 1–13</a><a href="#projects">Projects</a><a href="#teacher">Teacher notes</a></div></nav><main class="wrap" id="top"><section class="hero"><p class="kicker">13 detailed lessons · 4 projects · MacBook only · Grade 5</p><h1>Teach iMovie so students leave with a video ready to share.</h1><p class="lead">A complete classroom unit with detailed lesson plans. Students plan, record with the built-in camera, edit on the timeline, and export a polished piece for YouTube, Instagram, and similar platforms — all on a MacBook.</p><div class="btn-row"><a class="btn btn-primary" href="#lessons">Start with Lesson 1</a><a class="btn btn-outline" href="#projects">View the four projects</a></div><dl class="stats"><div class="stat"><dt>30–45 min</dt><dd>each lesson</dd></div><div class="stat"><dt>MacBook</dt><dd>no other devices</dd></div><div class="stat"><dt>4 projects</dt><dd>including a showcase</dd></div><div class="stat"><dt>1080p export</dt><dd>social-ready</dd></div></dl></section><section class="card"><div class="three"><div><h3>Unit goals</h3><ul><li>Plan a clear story or message for an audience</li><li>Record and import media using the MacBook camera</li><li>Edit clips; add titles, transitions, music, and voiceovers</li><li>Control pacing with Ken Burns, speed, and freeze frames</li><li>Export a polished video ready for YouTube and Instagram</li></ul></div><div><h3>Materials</h3><ul><li>MacBooks with iMovie installed and updated</li><li>Headphones (strongly recommended)</li><li>Good lighting facing students when they record</li><li>Optional: simple props or sample clips</li></ul></div><div><h3>Classroom norms</h3><ul><li>Name every project clearly (e.g. FirstName_AllAboutMe)</li><li>Use only iMovie’s built-in music and sound effects</li><li>Keep clips short and purposeful</li><li>Only film classmates with permission</li><li>Export regularly so work is not lost</li></ul></div></div></section><section class="card"><h2>On this page</h2><div class="toc"><div><h3>Lessons</h3><ol><li><a href="#l1">Welcome to iMovie — Interface</a></li><li><a href="#l2">Importing and Recording</a></li><li><a href="#l3">Trim, Split, Delete, Rearrange</a></li><li><a href="#l4">Transitions and Smooth Flow</a></li><li><a href="#l5">Titles, Text, and Captions</a></li><li><a href="#l6">Music, Sound Effects, Volume</a></li><li><a href="#l7">Voiceovers and Narration</a></li><li><a href="#l8">Photos and Ken Burns</a></li><li><a href="#l9">Effects, Filters, Color</a></li><li><a href="#l10">Speed Changes and Freeze Frames</a></li><li><a href="#l11">Trailers and Story Structure</a></li><li><a href="#l12">Polishing and Overlays</a></li><li><a href="#l13">Exporting and Celebration</a></li></ol></div><div><h3>Projects</h3><ol><li><a href="#p1">All About Me</a></li><li><a href="#p2">How-To or A Day in My Life</a></li><li><a href="#p3">Mini Story or Trailer-Style</a></li><li><a href="#p4">Final Showcase</a></li></ol><p style="margin-top:12px"><a href="#teacher">Teacher notes →</a></p></div></div></section><h2 class="section-title" id="lessons">Thirteen detailed lesson plans</h2>
+
+.nav a.active,.jump a.active{background:var(--wash);color:var(--fg);font-weight:600}
+details.lesson summary{cursor:pointer}
+details.lesson summary .chev{margin-left:auto;color:var(--muted);transition:transform .2s;font-size:.75rem;padding-top:8px}
+details.lesson[open] summary .chev{transform:rotate(180deg)}
+.toc a{display:block;padding:6px 0;color:var(--fg);text-decoration:none;border-bottom:1px solid transparent}
+.toc a:hover{color:var(--primary);border-bottom-color:var(--border)}
+.toc .col{min-width:0}
+.project-jump{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 8px}
+.project-jump a{display:inline-flex;align-items:center;height:36px;padding:0 14px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--fg);font-size:.85rem;text-decoration:none}
+.project-jump a:hover{border-color:var(--primary);color:var(--primary);text-decoration:none}
+.back-top{position:fixed;right:18px;bottom:18px;z-index:60;width:44px;height:44px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--fg);font-size:1.1rem;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.08);display:none;align-items:center;justify-content:center}
+.back-top.show{display:flex}
+.back-top:hover{border-color:var(--primary);color:var(--primary)}
+.lesson-list-click{list-style:none;margin:0;padding:0}
+.lesson-list-click li{margin:0}
+.lesson-list-click a{display:flex;gap:12px;align-items:flex-start;padding:12px 4px;border-bottom:1px solid var(--border);color:var(--fg);text-decoration:none}
+.lesson-list-click a:hover{color:var(--primary);text-decoration:none}
+.lesson-list-click .n{flex:0 0 28px;height:28px;border-radius:8px;background:var(--wash);color:var(--primary);font-family:Fraunces,serif;font-size:.85rem;display:flex;align-items:center;justify-content:center}
+.lesson-list-click strong{display:block;font-size:.95rem}
+.lesson-list-click span{font-size:.8rem;color:var(--muted)}
+@media print{.back-top,.jump{display:none!important}}
+</style></head><body><header class="site-header"><div class="inner"><a class="logo" href="#top"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 2.5v11L14 8 4 2.5z"/></svg></span>iMovie Studio</a><nav class="nav" aria-label="Primary"><a href="#top">Overview</a><a href="#lessons">Lessons</a><a href="#projects">Projects</a><a href="#teacher">Teacher</a></nav></div></header><nav class="jump" aria-label="Page sections"><div class="inner"><a href="#top">Overview</a><a href="#lessons">Lessons</a><a href="#p1">P1</a><a href="#p2">P2</a><a href="#p3">P3</a><a href="#p4">P4</a><a href="#teacher">Teacher</a></div></nav><main class="wrap" id="top"><section class="hero"><p class="kicker">13 detailed lessons · 4 projects · MacBook only · Grade 5</p><h1>Teach iMovie so students leave with a video ready to share.</h1><p class="lead">A complete classroom unit with detailed lesson plans. Students plan, record with the built-in camera, edit on the timeline, and export a polished piece for YouTube, Instagram, and similar platforms — all on a MacBook.</p><div class="btn-row"><a class="btn btn-primary" href="#lessons">Start with Lesson 1</a><a class="btn btn-outline" href="#projects">View the four projects</a></div><dl class="stats"><div class="stat"><dt>30–45 min</dt><dd>each lesson</dd></div><div class="stat"><dt>MacBook</dt><dd>no other devices</dd></div><div class="stat"><dt>4 projects</dt><dd>including a showcase</dd></div><div class="stat"><dt>1080p export</dt><dd>social-ready</dd></div></dl></section><section class="card"><div class="three"><div><h3>Unit goals</h3><ul><li>Plan a clear story or message for an audience</li><li>Record and import media using the MacBook camera</li><li>Edit clips; add titles, transitions, music, and voiceovers</li><li>Control pacing with Ken Burns, speed, and freeze frames</li><li>Export a polished video ready for YouTube and Instagram</li></ul></div><div><h3>Materials</h3><ul><li>MacBooks with iMovie installed and updated</li><li>Headphones (strongly recommended)</li><li>Good lighting facing students when they record</li><li>Optional: simple props or sample clips</li></ul></div><div><h3>Classroom norms</h3><ul><li>Name every project clearly (e.g. FirstName_AllAboutMe)</li><li>Use only iMovie’s built-in music and sound effects</li><li>Keep clips short and purposeful</li><li>Only film classmates with permission</li><li>Export regularly so work is not lost</li></ul></div></div></section><section class="card" id="contents">
+<h2>On this page — click to jump</h2>
+<div class="toc">
+<div class="col">
+<h3>Lessons (click to open)</h3>
+<ol class="lesson-list-click">
+<li><a href="#l1" data-open="l1"><span class="n">1</span><span><strong>Interface</strong><span>30–40 min</span></span></a></li>
+<li><a href="#l2" data-open="l2"><span class="n">2</span><span><strong>Import &amp; record</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l3" data-open="l3"><span class="n">3</span><span><strong>Trim, split, rearrange</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l4" data-open="l4"><span class="n">4</span><span><strong>Transitions</strong><span>30–40 min</span></span></a></li>
+<li><a href="#l5" data-open="l5"><span class="n">5</span><span><strong>Titles</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l6" data-open="l6"><span class="n">6</span><span><strong>Music &amp; volume</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l7" data-open="l7"><span class="n">7</span><span><strong>Voiceovers</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l8" data-open="l8"><span class="n">8</span><span><strong>Ken Burns</strong><span>30–40 min</span></span></a></li>
+<li><a href="#l9" data-open="l9"><span class="n">9</span><span><strong>Effects &amp; filters</strong><span>30–40 min</span></span></a></li>
+<li><a href="#l10" data-open="l10"><span class="n">10</span><span><strong>Speed &amp; freeze</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l11" data-open="l11"><span class="n">11</span><span><strong>Trailers</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l12" data-open="l12"><span class="n">12</span><span><strong>Polishing</strong><span>35–45 min</span></span></a></li>
+<li><a href="#l13" data-open="l13"><span class="n">13</span><span><strong>Export &amp; share</strong><span>30–45 min</span></span></a></li>
+</ol>
+</div>
+<div class="col">
+<h3>Projects</h3>
+<div class="project-jump">
+<a href="#p1">1 · All About Me</a>
+<a href="#p2">2 · How-To / Day</a>
+<a href="#p3">3 · Story / Trailer</a>
+<a href="#p4">4 · Final Showcase</a>
+</div>
+<p style="margin-top:16px"><a href="#teacher">Teacher notes →</a></p>
+<p class="muted" style="margin-top:12px;font-size:.9rem">Everything is on this one page. Use the sticky bar at the top to jump between sections.</p>
+</div>
+</div>
+</section><h2 class="section-title" id="lessons">Thirteen detailed lesson plans</h2>
 <p class="muted" style="margin-bottom:12px">Each lesson is 30–45 minutes. Expand a lesson for full objectives, warm-up, numbered steps, practice, checks, and teacher tips.</p>
 <div class="btn-row" style="margin-bottom:20px">
 <button type="button" class="btn btn-outline" id="expandAll" style="height:36px;font-size:.85rem">Expand all lessons</button>
@@ -71,7 +126,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </div>
 
 <details class="lesson" id="l1" open>
-<summary><span class="lesson-num">1</span><span class="lesson-head"><strong>Welcome to iMovie — Exploring the Interface</strong><span>30–40 min · Interface navigation</span></span></summary>
+<summary><span class="lesson-num">1</span><span class="lesson-head"><strong>Welcome to iMovie — Exploring the Interface</strong><span>30–40 min · Interface navigation</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -124,7 +179,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l2">
-<summary><span class="lesson-num">2</span><span class="lesson-head"><strong>Creating a Project, Importing, and Recording</strong><span>35–45 min · Import + MacBook camera</span></span></summary>
+<summary><span class="lesson-num">2</span><span class="lesson-head"><strong>Creating a Project, Importing, and Recording</strong><span>35–45 min · Import + MacBook camera</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -177,7 +232,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l3">
-<summary><span class="lesson-num">3</span><span class="lesson-head"><strong>Basic Editing — Trim, Split, Delete, Rearrange</strong><span>35–45 min · Core timeline skills</span></span></summary>
+<summary><span class="lesson-num">3</span><span class="lesson-head"><strong>Basic Editing — Trim, Split, Delete, Rearrange</strong><span>35–45 min · Core timeline skills</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -224,7 +279,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l4">
-<summary><span class="lesson-num">4</span><span class="lesson-head"><strong>Transitions and Smooth Flow</strong><span>30–40 min · Visual flow</span></span></summary>
+<summary><span class="lesson-num">4</span><span class="lesson-head"><strong>Transitions and Smooth Flow</strong><span>30–40 min · Visual flow</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -269,7 +324,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l5">
-<summary><span class="lesson-num">5</span><span class="lesson-head"><strong>Titles, Text, and Captions</strong><span>35–45 min · On-screen text</span></span></summary>
+<summary><span class="lesson-num">5</span><span class="lesson-head"><strong>Titles, Text, and Captions</strong><span>35–45 min · On-screen text</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -314,7 +369,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l6">
-<summary><span class="lesson-num">6</span><span class="lesson-head"><strong>Music, Sound Effects, and Volume</strong><span>35–45 min · Audio foundation</span></span></summary>
+<summary><span class="lesson-num">6</span><span class="lesson-head"><strong>Music, Sound Effects, and Volume</strong><span>35–45 min · Audio foundation</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -359,7 +414,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l7">
-<summary><span class="lesson-num">7</span><span class="lesson-head"><strong>Voiceovers and Narration</strong><span>35–45 min · MacBook microphone</span></span></summary>
+<summary><span class="lesson-num">7</span><span class="lesson-head"><strong>Voiceovers and Narration</strong><span>35–45 min · MacBook microphone</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -404,7 +459,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l8">
-<summary><span class="lesson-num">8</span><span class="lesson-head"><strong>Photos and the Ken Burns Effect</strong><span>30–40 min · Still images in motion</span></span></summary>
+<summary><span class="lesson-num">8</span><span class="lesson-head"><strong>Photos and the Ken Burns Effect</strong><span>30–40 min · Still images in motion</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -451,7 +506,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l9">
-<summary><span class="lesson-num">9</span><span class="lesson-head"><strong>Video Effects, Filters, and Simple Color</strong><span>30–40 min · Visual mood</span></span></summary>
+<summary><span class="lesson-num">9</span><span class="lesson-head"><strong>Video Effects, Filters, and Simple Color</strong><span>30–40 min · Visual mood</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -494,7 +549,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l10">
-<summary><span class="lesson-num">10</span><span class="lesson-head"><strong>Speed Changes and Freeze Frames</strong><span>35–45 min · Pacing control</span></span></summary>
+<summary><span class="lesson-num">10</span><span class="lesson-head"><strong>Speed Changes and Freeze Frames</strong><span>35–45 min · Pacing control</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -541,7 +596,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l11">
-<summary><span class="lesson-num">11</span><span class="lesson-head"><strong>iMovie Trailers and Structured Storytelling</strong><span>35–45 min · Templates and story structure</span></span></summary>
+<summary><span class="lesson-num">11</span><span class="lesson-head"><strong>iMovie Trailers and Structured Storytelling</strong><span>35–45 min · Templates and story structure</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -587,7 +642,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l12">
-<summary><span class="lesson-num">12</span><span class="lesson-head"><strong>Polishing, Organizing, and Optional Overlays</strong><span>35–45 min · Final refinements</span></span></summary>
+<summary><span class="lesson-num">12</span><span class="lesson-head"><strong>Polishing, Organizing, and Optional Overlays</strong><span>35–45 min · Final refinements</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -633,7 +688,7 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </details>
 
 <details class="lesson" id="l13">
-<summary><span class="lesson-num">13</span><span class="lesson-head"><strong>Exporting, Sharing, Reflecting, and Celebration</strong><span>30–45 min · Social-media ready export</span></span></summary>
+<summary><span class="lesson-num">13</span><span class="lesson-head"><strong>Exporting, Sharing, Reflecting, and Celebration</strong><span>30–45 min · Social-media ready export</span></span><span class="chev" aria-hidden="true">▼</span></summary>
 <div class="lesson-body">
 <h3>Objectives</h3>
 <ul>
@@ -959,8 +1014,49 @@ footer p{color:#94a3b8;font-size:.95rem;max-width:28rem}
 </article>
 
 <h2 class="section-title" id="teacher">Teacher notes</h2><article class="card"><h2>Camera and recording</h2><ul><li>Practice the built-in camera in Lesson 2 so framing is not new during projects.</li><li>Have students face a window or lamp. Backlight makes faces dark.</li><li>Quiet corners or a hallway help voiceovers stay clean.</li><li>If the preview is black, check System Settings → Privacy &amp; Security → Camera and Microphone.</li></ul></article><article class="card"><h2>Storage and workflow</h2><ul><li>iMovie libraries grow quickly. Export and delete practice projects on a regular schedule.</li><li>Require consistent names from day one.</li><li>Show the Projects button (top left) so students can return to the browser any time.</li><li>A finished export in Finder is the copy that counts — not only the iMovie project.</li></ul></article><article class="card"><h2>Differentiation</h2><ul><li>Provide pre-trimmed media or sentence starters for narration.</li><li>Offer a quieter recording space.</li><li>Challenge: Picture-in-Picture, a second speed change, or a slightly longer showcase.</li><li>Pairs work well on the final project if roles are named (director, editor, talent).</li></ul></article><article class="card"><h2>Assessment</h2><ul><li>Formative: circulate, check timelines, listen to partner feedback.</li><li>Summative: the four projects plus a short reflection on social-media readiness.</li><li>Score 1–4 on the categories listed in each project.</li><li>Key final question: Is this video polished and ready to share on YouTube or Instagram?</li><li>Suggested weighting: Projects 1–3 average 50%, Showcase 40%, daily process 10%.</li></ul></article><article class="card"><h2>Export for social platforms</h2><ul><li>Default student export: File, 1080p, High quality, .mp4.</li><li>Instagram and similar feeds prefer about 60–90 seconds with a strong first 5 seconds.</li><li>YouTube can be longer, but the same opening still matters.</li><li>iMovie on Mac exports widescreen 16:9 — correct for YouTube and landscape Instagram posts.</li><li>Never post a classmate’s face without permission.</li></ul></article></main><footer><div class="inner"><h2>iMovie Studio</h2><p>Thirteen detailed MacBook-only lesson plans for Grade 5. Plan, shoot, edit, and export a video ready for YouTube and Instagram.</p></div></footer>
+<button type="button" class="back-top" id="backTop" aria-label="Back to top">↑</button>
 <script>
-document.getElementById("expandAll")?.addEventListener("click",()=>{document.querySelectorAll("details.lesson").forEach(d=>d.open=true)});
-document.getElementById("collapseAll")?.addEventListener("click",()=>{document.querySelectorAll("details.lesson").forEach(d=>d.open=false)});
+(function(){
+  const lessons=()=>document.querySelectorAll("details.lesson");
+  document.getElementById("expandAll")?.addEventListener("click",()=>lessons().forEach(d=>d.open=true));
+  document.getElementById("collapseAll")?.addEventListener("click",()=>lessons().forEach(d=>d.open=false));
+
+  // Clicking a lesson link in the TOC opens that lesson
+  document.querySelectorAll("[data-open]").forEach(a=>{
+    a.addEventListener("click",()=>{
+      const id=a.getAttribute("data-open");
+      const el=document.getElementById(id);
+      if(el){el.open=true;}
+    });
+  });
+
+  // Back to top
+  const btn=document.getElementById("backTop");
+  window.addEventListener("scroll",()=>{
+    if(window.scrollY>400) btn.classList.add("show");
+    else btn.classList.remove("show");
+  });
+  btn?.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+
+  // Highlight nav for current section
+  const sections=["top","lessons","projects","teacher","p1","p2","p3","p4"];
+  const anchors=[...document.querySelectorAll('.nav a[href^="#"], .jump a[href^="#"]')];
+  function setActive(){
+    let current="top";
+    for(const id of ["teacher","p4","p3","p2","p1","projects","lessons","top"]){
+      const el=document.getElementById(id==="top"?"top":id);
+      if(!el) continue;
+      const top=el.getBoundingClientRect().top;
+      if(top<=120){current=id;break;}
+    }
+    anchors.forEach(a=>{
+      const href=a.getAttribute("href")||"";
+      const id=href.replace("#","");
+      a.classList.toggle("active", id===current || (current.startsWith("p") && id==="projects" && a.closest(".nav")));
+    });
+  }
+  window.addEventListener("scroll",setActive,{passive:true});
+  setActive();
+})();
 </script>
 </body></html>
