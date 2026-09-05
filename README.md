@@ -1,10 +1,12 @@
 # Grade 5 iMovie
 
-MacBook-only iMovie unit for Grade 5. Built in the same “teach from the page” style as [Grade 5 Health](https://scaemrfung.github.io/grade5health/).
+MacBook-only iMovie unit for Grade 5.
 
 **Live site:** https://scaemrfung.github.io/Grade5-iMovie/
 
-Fourteen lessons and four projects. Open today’s lesson. Teach the numbered steps. Students leave with a clip on the timeline. Progress stamps save in the browser on that device — no login.
+Fourteen lessons and four projects. Open a lesson, teach the numbered steps, and students leave with a clip on the timeline. Progress stamps save in the browser — no login.
+
+Cool classroom-blue theme.
 
 ## Units
 
@@ -21,11 +23,4 @@ Fourteen lessons and four projects. Open today’s lesson. Teach the numbered st
 3. Mini Story or Trailer
 4. Final Showcase
 
-## GitHub Pages
-
-1. Repo **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: **main**, folder: **/ (root)**
-4. Save, then open the Pages URL
-
-Open `index.html` locally if you do not want to use Pages.
+Open `index.html` in any browser if you are not using GitHub Pages.
