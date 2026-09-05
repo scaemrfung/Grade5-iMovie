@@ -18,54 +18,81 @@ const LESSONS = [
     "warmup": "Watch a short example video (teacher choice). Discuss: What made it easy to follow? What would you change?",
     "groups": [
       {
-        "title": "Open iMovie and start a project",
+        "title": "Open iMovie",
+        "intro": "Do this together, click by click. Do not skip ahead.",
         "steps": [
-          "Click the Launchpad icon in the Dock, or press Command + Space to open Spotlight.",
-          "Type iMovie and press Return.",
-          "If iMovie asks for Photos or camera permission, click Allow.",
-          "You should now see the Projects browser — a screen of existing movies (or a mostly empty screen if this is the first time).",
-          "Click Create New (the large plus tile).",
-          "Choose Movie, not Trailer. Trailer comes later.",
-          "A blank project opens. This is the editing workspace."
+          "Look at the Dock — the row of app icons along the bottom of the screen.",
+          "Find Launchpad (a silver grid of colourful squares). Click it once. A screen of apps appears.",
+          "If you cannot find Launchpad, press Command + Space. A search bar called Spotlight pops up in the middle of the screen.",
+          "Type iMovie. As you type, the purple iMovie icon with a movie-camera / star should appear.",
+          "Press Return, or click the iMovie icon. Wait a few seconds. A purple splash screen may flash, then the app opens.",
+          "If a box asks for access to Photos, Camera, or Microphone, click OK or Allow. We need these later.",
+          "You should now see the Projects browser: a grey screen with movie posters, or a nearly empty screen with a large plus tile. You know it worked if you can see the word Projects at the top."
+        ]
+      },
+      {
+        "title": "Create a Movie project",
+        "steps": [
+          "Click the large tile that says Create New. It is a plus sign. If you do not see it, click Projects in the top-left corner first — you may already be inside an old movie.",
+          "A small menu appears with two choices: Movie and Trailer.",
+          "Click Movie. Do not click Trailer today. Trailer is a later lesson.",
+          "A new editing workspace opens. The bottom of the window is a long empty strip. That empty strip is your timeline.",
+          "Look at the very top of the window. The project is probably named My Movie.",
+          "Click the words My Movie once. They become editable.",
+          "Type Practice1_ then your first name, with no spaces, for example Practice1_Alex. Press Return.",
+          "You know it worked if the new name shows at the top of the window. iMovie saves by itself. You never need File → Save."
         ]
       },
       {
         "title": "Name the four main areas",
-        "intro": "Point to each area as you name it. Students should be able to find all four without help.",
+        "intro": "Point to each area as you name it. By the end, you should find all four without help.",
         "steps": [
-          "Media Library (left): this is where imported clips, photos, and recordings live. It may say Project Media.",
-          "Viewer (large window, usually top right): this is the preview of your movie. What you see here is what the audience will see.",
-          "Timeline (the long strip across the bottom): this is where you build the story, left to right, beginning to end.",
-          "Toolbar (tabs near the top of the media area): Media, Audio, Titles, Backgrounds, and Transitions."
+          "Media Library (left side, upper area): this is where imported clips, photos, and recordings live. It may say Project Media or Libraries. If it is empty today, that is normal.",
+          "Viewer (the large rectangle, usually top right): this is the preview of your movie. What you see here is what the audience will see.",
+          "Timeline (the long strip across the bottom): this is where you build the story, left to right, beginning to end. Empty grey means nothing is in the movie yet.",
+          "Toolbar tabs (a row of words or icons above the media area): Media, Audio, Titles, Backgrounds, and Transitions. Click each tab once so you see it change, then click Media to return.",
+          "Find the playhead: a thin vertical line on the timeline. It shows where you are in the movie. Click in the empty timeline. The playhead jumps to that spot.",
+          "Partner check: Partner A covers the labels and names an area. Partner B points. Switch."
         ]
       },
       {
-        "title": "Practice moving around",
+        "title": "Play, zoom, scroll, and undo",
         "steps": [
-          "Click anywhere on the empty timeline to place the playhead (the vertical line that shows your current position).",
-          "Press the spacebar to play. Press spacebar again to pause.",
-          "Use two fingers on the trackpad to scroll the timeline left and right.",
-          "Pinch with two fingers on the trackpad to zoom the timeline in (see more detail) or out (see more of the whole movie).",
-          "Press Command + Z to undo. This is the most important shortcut in iMovie. Use it whenever something unexpected happens.",
-          "Click the project name at the top (it may say My Movie) and rename it Practice1_YourName.",
-          "iMovie saves automatically. You do not need to choose File > Save."
+          "There is nothing on the timeline yet, so play will look like a black Viewer. That is okay. We are practising the buttons.",
+          "Press the spacebar once. That is Play. Press spacebar again. That is Pause. Memorise this — you will use it every lesson.",
+          "Under the Viewer there is also a Play button (a triangle). Click it once to play, click it again to stop.",
+          "Place two fingers on the trackpad and swipe left and right. The timeline should slide. This is scrolling. You use it when the movie is longer than the window.",
+          "Pinch two fingers together on the trackpad to zoom out (see more of the movie). Spread two fingers apart to zoom in (see more detail on one clip).",
+          "If pinch-zoom does not work, look for a small zoom slider in the top-right of the timeline and drag it.",
+          "Click anywhere, then press Command + Z. That is Undo. Even if “nothing happened,” remember the shortcut. If you ever delete a clip by accident, Command + Z brings it back.",
+          "Press Command + Shift + Z to Redo if you undo too far."
+        ]
+      },
+      {
+        "title": "Leave and come back",
+        "steps": [
+          "Click Projects in the top-left corner. You return to the poster wall.",
+          "Find the poster named Practice1_YourName. Click it once to reopen the same project.",
+          "You know it worked if your project name is still at the top and the workspace looks the same.",
+          "Do not create a second new project today. One named practice project is enough."
         ]
       }
     ],
     "practice": [
       "Create the project, rename it, and sit with a partner.",
-      "Partner A names each of the four areas while Partner B points.",
-      "Switch roles. Then both partners demonstrate play/pause, zoom, and undo."
+      "Partner A names each of the four areas while Partner B points. Then switch.",
+      "Both partners demonstrate play/pause, zoom, undo, and returning to Projects."
     ],
     "check": [
       "Can the student open iMovie and create a Movie project without help?",
       "Can they point to the Media Library, Viewer, Timeline, and Titles/Transitions tabs?",
-      "Can they play, pause, and undo?"
+      "Can they play, pause, zoom, undo, and reopen the project from Projects?"
     ],
     "tips": [
       "Keep language simple: “The long strip at the bottom is your story.”",
       "Fix login, storage, and permission pop-ups in this lesson so later lessons stay on track.",
-      "If a student cannot find Create New, they are still on an old project — click Projects in the top left first."
+      "If a student cannot find Create New, they are still inside an old project — click Projects in the top left first.",
+      "Circulate and read project names. Fix Untitled or My Movie before the period ends."
     ]
   },
   {
@@ -89,49 +116,58 @@ const LESSONS = [
       {
         "title": "Create or open the project",
         "steps": [
-          "Open iMovie. If you are still inside yesterday’s project, click Projects in the top-left corner to return to the browser.",
-          "Create New → Movie, or open your Lesson 1 project.",
-          "Rename it ImportPractice_YourName."
+          "Open iMovie. If you are inside yesterday’s project, click Projects in the top-left corner.",
+          "Either click Create New → Movie, or click your Lesson 1 poster to reopen it.",
+          "Click the name at the top and change it to ImportPractice_YourName. Press Return.",
+          "Confirm you are in a Movie project, not a Trailer. Trailers have a Storyboard. Movies have a long empty timeline."
         ]
       },
       {
         "title": "Import photos or videos already on the Mac",
+        "intro": "Use teacher sample files if you do not have your own photos yet.",
         "steps": [
-          "Click the Import Media button (downward arrow) above the media browser. If you do not see it, choose File → Import Media.",
-          "In the Import window, browse to Photos, Desktop, or a class folder the teacher has prepared.",
-          "Click one file, or hold Command and click several files.",
-          "Click Import Selected.",
-          "Wait until the clips appear in Project Media on the left. Do not close the window while it is still importing."
+          "Look above the media browser for a downward arrow. That is Import Media. Click it.",
+          "If you do not see the arrow, go to the menu bar at the very top of the screen: File → Import Media.",
+          "A Finder-style window opens. The left sidebar lists locations: Photos, Recents, Desktop, Documents, and Cameras.",
+          "Click Desktop, Documents, or the class folder the teacher named. Thumbnails of videos and photos appear.",
+          "Click one file. A yellow or blue outline shows it is selected. Hold the Command key and click two more files to select several.",
+          "Click Import Selected in the bottom-right of that window.",
+          "Watch Project Media on the left. Thumbnails should appear. Do not close anything while a progress bar is moving.",
+          "If a file is greyed out, it is a type iMovie cannot use. Skip it and pick a photo or .mov / .mp4 video.",
+          "You know it worked if you can click a thumbnail in Project Media and see it in the Viewer."
         ]
       },
       {
         "title": "Record a clip with the MacBook camera",
-        "intro": "This is the only camera students will use in this unit.",
+        "intro": "This is the only camera in this unit. No phones.",
         "steps": [
           "Click Import Media again.",
-          "In the left sidebar of the Import window, under Cameras, click FaceTime HD Camera.",
-          "If macOS asks for camera or microphone access, click Allow.",
-          "A live preview of your face should appear. Sit an arm’s length from the laptop.",
-          "Face a window or lamp so light hits your face, not the back of the screen.",
-          "Look at the camera lens at the top of the screen, not at your own image.",
-          "Click the red Record button. Speak one short sentence, such as “Hi, my name is ___ and this is my video.”",
-          "Click Record again to stop. The new clip appears in Project Media.",
-          "Record a second clip if the first one is dark, shaky, or too quiet."
+          "In the left sidebar of the Import window, find Cameras. Click FaceTime HD Camera.",
+          "If macOS shows a lock or a permission box, click Allow. If the preview stays black, raise your hand — the teacher will check System Settings → Privacy & Security → Camera.",
+          "A live picture of you should appear. Sit an arm’s length from the laptop. The camera is the tiny lens at the top centre of the screen.",
+          "Turn the laptop so a window or lamp lights your face. If a bright window is behind you, your face will look like a silhouette.",
+          "Sit still. Look at the camera lens, not at your own image.",
+          "Click the red Record button. A timer starts. Speak one short sentence: “Hi, my name is ___ and this is my video.”",
+          "Click the red button again to stop. Stopping is as important as starting — do not let it keep recording.",
+          "Click Import or wait until the clip appears in Project Media. You should see a thumbnail of your face.",
+          "Play it from Project Media (click the thumbnail, press spacebar). If it is dark, shaky, or too quiet, record one more take. Keep each take under 15 seconds."
         ]
       },
       {
-        "title": "Build a first sequence",
+        "title": "Build a first sequence on the timeline",
         "steps": [
-          "Drag your best clips from Project Media down onto the timeline, one after another.",
-          "The first clip on the left is the beginning of the movie.",
-          "Drag clips left or right to change the order.",
-          "Press spacebar and watch the whole sequence.",
-          "Ask: Does this order tell a clear story?"
+          "Click and hold a clip in Project Media, then drag it straight down onto the timeline. Let go when you see it land in the long strip.",
+          "The left side of the timeline is the start of the movie. Put your talking-head clip first if you want an introduction.",
+          "Drag a second clip to the right of the first. They should sit side by side, not stacked, for this lesson.",
+          "If a clip lands on top of another and looks like a small overlay, press Command + Z and drag it to the empty space to the right instead.",
+          "Click the first clip, then press the left-arrow key to jump the playhead to its start. Press spacebar and watch the whole sequence.",
+          "To change the order, click a clip, hold, and drag it left or right. A gap opens and the other clips slide.",
+          "Ask yourself: Does this order tell a clear little story? If not, rearrange once more."
         ]
       }
     ],
     "practice": [
-      "Import 2–3 sample items and record 1–2 talking-head clips.",
+      "Import 2–3 sample items and record 1–2 talking-head clips, each under 15 seconds.",
       "Arrange them on the timeline in a logical order.",
       "Partner watch: “What order is clearer?”"
     ],
@@ -143,7 +179,8 @@ const LESSONS = [
     "tips": [
       "If the camera preview is black, check that nothing is covering the camera and that permission was granted in System Settings → Privacy & Security → Camera.",
       "Students who are camera-shy may record an object on the desk first, then a face clip.",
-      "Keep recordings under 15 seconds. Long takes are harder to edit later."
+      "Keep recordings under 15 seconds. Long takes are harder to edit later.",
+      "Name files and projects before importing so the media browser does not fill with IMG_2033."
     ]
   },
   {
@@ -163,38 +200,58 @@ const LESSONS = [
     "warmup": "Play a messy clip with a long pause at the start. Ask: What should we cut?",
     "groups": [
       {
-        "title": "Select a clip",
+        "title": "Select a clip the right way",
         "steps": [
-          "Click once on a clip in the timeline. A yellow border appears around it.",
-          "The Viewer now shows that clip. If you click the background of the timeline, nothing is selected."
+          "Open ImportPractice_YourName (or the project with clips on the timeline).",
+          "Click once on a clip in the timeline — not in Project Media, in the strip at the bottom.",
+          "A yellow border appears around that clip. The Viewer shows the frame under the playhead.",
+          "Click the dark background of the timeline. The yellow border disappears. Nothing is selected.",
+          "Click the clip again. You must see yellow before you trim, split, or delete.",
+          "If you accidentally double-click and a window pops up, click away or press Esc, then click once."
+        ]
+      },
+      {
+        "title": "Zoom in so the handles are easy to grab",
+        "steps": [
+          "Spread two fingers on the trackpad, or drag the timeline zoom slider to the right.",
+          "The clip should look wide enough that you can see its edges clearly.",
+          "Move the playhead to the start of the clip you will trim. Press spacebar and watch just that clip. Notice the dead air, the shaky start, or the long goodbye."
         ]
       },
       {
         "title": "Trim the beginning or end",
+        "intro": "Trimming hides frames. It does not destroy the original file. You can drag the handle back out.",
         "steps": [
-          "Move the pointer to the left edge of the selected clip until the cursor changes and yellow trim handles appear.",
-          "Click and drag the handle inward (toward the middle of the clip) to hide the shaky start.",
+          "Select the clip (yellow border).",
+          "Move the pointer slowly to the left edge of the clip. The cursor changes, and a yellow trim handle appears.",
+          "Click, hold, and drag that handle inward — toward the middle of the clip — until the shaky or silent start is gone.",
+          "Let go. The clip is now shorter. The next clip slides left to close the gap.",
           "Do the same on the right edge to cut a long, empty ending.",
-          "Play the clip. If you trimmed too far, drag the handle back out. iMovie does not destroy the original media."
+          "Move the playhead just before the clip and press spacebar. If you trimmed too far (you lost a word or a smile), drag the handle back out a little.",
+          "Repeat for every clip on the timeline. Goal: each clip starts on useful action or speech."
         ]
       },
       {
         "title": "Split a clip to remove a middle mistake",
         "steps": [
-          "Play the clip and pause exactly on the first frame of the mistake (a cough, a long “um,” a hand covering the lens).",
-          "With the clip selected and the playhead on that frame, click the Split button (scissors) under the Viewer, or press Command + B.",
-          "Move the playhead to the end of the mistake and split again. You now have three pieces.",
-          "Click the middle piece and press Delete (or Backspace).",
-          "The two remaining pieces snap together. Play through the join. If it feels jumpy, trim a few more frames on either side."
+          "Play the clip. Pause exactly on the first frame of the mistake — a cough, a long “um,” a hand covering the lens. Use the left and right arrow keys to nudge one frame at a time.",
+          "Make sure the clip is still selected (yellow).",
+          "Press Command + B, or click the scissors / Split Clip button under the Viewer.",
+          "The clip becomes two pieces with a cut at the playhead. You know it worked if you now see two yellow-bordered (or separate) segments.",
+          "Move the playhead to the last frame of the mistake. Split again with Command + B. You now have three pieces: good, bad, good.",
+          "Click only the middle (bad) piece. Press Delete (Backspace). It disappears. The two good pieces snap together.",
+          "Play through the join. If it feels jumpy, trim a few frames on either side of the cut.",
+          "If you split in the wrong place, press Command + Z until the clip is whole, then try again."
         ]
       },
       {
-        "title": "Rearrange and clean the whole sequence",
+        "title": "Delete, rearrange, and set a length goal",
         "steps": [
-          "Click and drag any clip left or right to change the order.",
-          "Delete any clip you do not need by selecting it and pressing Delete.",
-          "If you delete the wrong thing, press Command + Z immediately.",
-          "Goal: a clean 20–40 second sequence. Short and clear is better than long and messy."
+          "To throw a whole clip away, click it once and press Delete. Project Media still has the original, so you can drag it back if you need it.",
+          "To change the order, click, hold, and drag a clip left or right. Wait until the others slide, then let go.",
+          "Look at the time in the Viewer or near the playhead. Aim for a clean 20–40 second sequence today.",
+          "If the movie is longer than 40 seconds, delete the weakest clip or trim more.",
+          "Play the whole timeline from the start with no pausing. If anything still feels slow, trim again."
         ]
       }
     ],
@@ -209,7 +266,8 @@ const LESSONS = [
     ],
     "tips": [
       "Zoom the timeline in before trimming so the handles are easier to grab.",
-      "Teach “less is more” as a class motto from this lesson on."
+      "Teach “less is more” as a class motto from this lesson on.",
+      "If yellow handles will not appear, the student is hovering on the audio wave or an overlay — click the video clip itself."
     ]
   },
   {
@@ -230,33 +288,41 @@ const LESSONS = [
       {
         "title": "Open the Transitions browser",
         "steps": [
-          "Click the Transitions tab near the top of the media area.",
-          "Thumbnail styles appear: Cross Dissolve, Fade to Black, Slide, Wipe, and others.",
-          "Move the pointer across a thumbnail to preview how it looks."
+          "Open the project with at least three cleaned clips on the timeline.",
+          "Above the media area, click the Transitions tab. If you see Media, Audio, Titles, Backgrounds, Transitions — pick the last one.",
+          "A grid of thumbnails appears: Cross Dissolve, Fade to Black, Fade to White, Slide, Wipe, Page Curl, and more.",
+          "Move the pointer slowly across a thumbnail without clicking. A mini preview plays. Watch Cross Dissolve (a gentle blend) and Fade to Black.",
+          "Skip the wildest styles (cubes, pages, zooms) for Grade 5 work. Simple looks more professional."
         ]
       },
       {
         "title": "Add a transition between two clips",
         "steps": [
-          "Drag Cross Dissolve and drop it exactly on the cut between two clips. A small transition icon appears in the gap.",
-          "Play across the join. The first clip should blend gently into the second.",
-          "To try a different style, drag a new transition on top of the old one to replace it."
+          "Look at the timeline. The thin line where one clip touches the next is a cut.",
+          "Click and hold Cross Dissolve in the browser.",
+          "Drag it straight down and drop it exactly on that cut. A small overlapping icon appears in the gap. That icon is the transition.",
+          "If nothing drops, the clips may be too short. Trim a little less, or use a shorter duration in the next step.",
+          "Move the playhead a second before the join. Press spacebar. The first clip should blend gently into the second.",
+          "Add at most one more transition in a different place — for example Fade to Black before an end title."
         ]
       },
       {
-        "title": "Change the duration",
+        "title": "Change the style or the duration",
         "steps": [
-          "Double-click the transition icon on the timeline.",
-          "A small duration window appears. Type a value between 0.5 and 2.0 seconds. Longer than 2 seconds usually feels slow.",
-          "Click Apply (or press Return).",
-          "Play the join again. Short dissolves feel professional; long ones can feel dreamy or delayed."
+          "To replace a style, drag a different transition from the browser and drop it on top of the old icon.",
+          "To change the length, double-click the transition icon on the timeline.",
+          "A small duration box appears. Type 0.8 or 1.0. Do not type 4 or 5 — that feels slow.",
+          "Press Return or click Apply.",
+          "Play the join again. Short dissolves feel professional. Long ones can feel dreamy or delayed."
         ]
       },
       {
-        "title": "Remove a transition",
+        "title": "Delete a transition and use a hard cut",
         "steps": [
-          "Click the transition icon once so it is selected.",
-          "Press Delete. The clips now cut directly from one to the next."
+          "Click the transition icon once so it is selected (it may highlight).",
+          "Press Delete. The clips now cut directly from one to the next. That is called a hard cut, and it is often the best choice.",
+          "Rule for this unit: 2–4 transitions in a whole project, not one on every cut.",
+          "Play the entire movie. If a transition feels busy or silly, delete it."
         ]
       }
     ],
@@ -271,7 +337,8 @@ const LESSONS = [
     ],
     "tips": [
       "Model that a hard cut is often the best choice.",
-      "If a transition will not drop between clips, the clips may be too short for that duration — shorten the transition or lengthen a clip."
+      "If a transition will not drop between clips, the clips may be too short for that duration — shorten the transition or lengthen a clip.",
+      "Cross Dissolve between related shots. Fade to Black when time has passed or the movie is ending."
     ]
   },
   {
@@ -292,46 +359,51 @@ const LESSONS = [
       {
         "title": "Open the Titles browser",
         "steps": [
-          "Click the Titles tab.",
-          "You will see styles such as Standard, Centered, Lower Third, Reveal, and Credits.",
-          "Skim a few. For Grade 5, Centered and Lower Third are the most useful."
+          "Click the Titles tab above the media area.",
+          "Scroll the styles. You will see Standard, Centered, Lower Third, Reveal, Credits, and others.",
+          "Move the pointer over Centered and Lower Third to preview them. For Grade 5, those two are the workhorses.",
+          "Avoid the busiest animations until the movie is already clear without them."
         ]
       },
       {
         "title": "Add an opening title",
         "steps": [
-          "Move the playhead to the very beginning of the timeline.",
-          "Drag Centered onto the timeline above the first clip, or drop it at the start so it sits over black or the first shot.",
-          "A purple title bar appears on the timeline. Purple always means text.",
-          "Click the purple bar, then click the placeholder words in the Viewer.",
-          "Type All About Me – and your first name.",
-          "Click outside the text box when you are done."
+          "Drag the playhead all the way left, to the start of the timeline. Press the Home key if you have one, or scroll left until you see the beginning.",
+          "Click and hold Centered. Drag it onto the timeline and drop it at the very start, above the first clip or on a little black gap before the first clip.",
+          "A purple bar appears. Purple always means text in iMovie.",
+          "If the title landed in the middle of the movie, drag the purple bar left until it is first.",
+          "Click the purple bar once so it is selected. Then click the placeholder words in the Viewer (they may say Title or your name).",
+          "The words highlight. Type All About Me – and your first name. Check spelling.",
+          "Click outside the text box, or press Esc, when you are done. Do not leave the cursor blinking in the title."
         ]
       },
       {
         "title": "Add a lower-third name caption",
         "steps": [
-          "Find a clip of yourself talking.",
-          "Drag Lower Third onto that clip so the purple bar sits above it.",
-          "Edit the text in the Viewer to your name, or a short label such as Reporter.",
-          "Keep the words near the bottom of the frame so they do not cover your face."
+          "Find a clip of yourself talking. Click it so you can see your face in the Viewer.",
+          "Drag Lower Third from the Titles browser onto that clip. The purple bar should sit above the video clip, lining up with the talking.",
+          "Click the placeholder in the Viewer. Type your name on the first line. On the second line, type a short label if you want one, such as Grade 5 or Reporter.",
+          "Look at your face. The words should sit near the bottom of the frame, not over your eyes.",
+          "If the style covers your face, pick a simpler Lower Third or shorten the words."
         ]
       },
       {
         "title": "Control how long the title stays on screen",
         "steps": [
-          "Click the purple title bar.",
-          "Drag either end to make it longer or shorter.",
-          "Keep titles on screen for 3–5 seconds. Count slowly: one-one-thousand, two-one-thousand…",
-          "Play the title. If a partner cannot finish reading it, make it longer or use fewer words."
+          "Click the purple title bar in the timeline.",
+          "Drag the right edge to the right to make it longer, or to the left to make it shorter.",
+          "Count slowly while it plays: one-one-thousand, two-one-thousand, three-one-thousand. Opening titles need 3–5 seconds.",
+          "A partner should be able to read the title aloud before it disappears. If they cannot, make it longer or use fewer words.",
+          "Do not stretch a title over the whole movie. It should come on, be read, and leave."
         ]
       },
       {
         "title": "Add simple end text",
         "steps": [
-          "Move the playhead to the end of the movie.",
-          "Add a Centered or Credits title.",
-          "Type Thanks for watching or Created by Your Name."
+          "Move the playhead to the last frame of the last clip.",
+          "Drag Centered (or Credits) to the end of the timeline. It can sit after the last picture, or over a Fade to Black.",
+          "Type Thanks for watching or Created by Your Name.",
+          "Keep it on screen 3–5 seconds. Play from a few seconds before the end to check the finish does not feel chopped."
         ]
       }
     ],
@@ -346,7 +418,8 @@ const LESSONS = [
     ],
     "tips": [
       "Avoid tiny fonts and busy animated styles for this age group.",
-      "If the title is hard to see over a bright clip, place it over a darker shot or add a fade-to-black first."
+      "If the title is hard to see over a bright clip, place it over a darker shot or add a fade-to-black first.",
+      "Students often type in all caps. Model Title Case: All About Me – Alex."
     ]
   },
   {
@@ -366,39 +439,48 @@ const LESSONS = [
     "warmup": "Play a clip with music louder than the voice. Ask: What is the problem?",
     "groups": [
       {
-        "title": "Browse built-in audio",
+        "title": "Plug in and browse built-in audio",
         "steps": [
-          "Click the Audio tab.",
-          "Browse Theme Music (or Soundtracks) and Sound Effects.",
-          "Click a track once to preview it. Listen with headphones.",
-          "Choose music that matches the mood: calm, cheerful, or adventurous — not random."
+          "Plug in headphones and put them on. Built-in laptop speakers make music seem quieter than it is.",
+          "Click the Audio tab above the media area.",
+          "You should see Soundtracks (or Theme Music) and Sound Effects. Click Soundtracks first.",
+          "Click a track name once. It previews. Do not drag yet — listen to 10 seconds of two or three options.",
+          "Choose music that matches the mood: calm, cheerful, or adventurous. If you cannot name the mood, pick a different track.",
+          "Only use iMovie’s built-in library unless the teacher gives you an approved file. No random internet songs."
         ]
       },
       {
         "title": "Add background music",
         "steps": [
-          "Drag the chosen music onto the timeline. It should sit in the music area under the video clips, often as a green or green-tinted bar spanning many clips.",
-          "If the music is longer than the movie, drag the right edge inward so it ends with the last picture, or a second after.",
-          "If it is too short, pick a different track rather than looping awkwardly."
+          "Click and hold your chosen soundtrack. Drag it down under the video clips on the timeline.",
+          "It should land as a long green (or green-tinted) bar that can span many clips. That is the music bed.",
+          "If it lands on top of a video clip as a sound effect, press Command + Z and drag it lower, into the music area.",
+          "Look at the end of your movie. If the music bar sticks out past the last picture, drag the right edge of the music inward until it ends with the last frame, or one second after.",
+          "If the music is much shorter than the movie, pick a longer soundtrack instead of repeating the same 10 seconds.",
+          "Play from the start. Music should be there, even if it is still too loud. We will fix volume next."
         ]
       },
       {
-        "title": "Add a sound effect",
+        "title": "Add one or two sound effects",
         "steps": [
-          "Go to Sound Effects in the Audio browser.",
-          "Find a short effect (whoosh, click, pop, applause) that fits one moment.",
-          "Drag it onto the timeline at the exact moment it should play — for example, when a title appears.",
-          "Use only one or two effects in the whole project."
+          "In the Audio browser, click Sound Effects.",
+          "Use the search field if you see one, or scroll. Try a whoosh, pop, click, or applause.",
+          "Preview with a single click. Pick a short effect that matches one moment — for example when the opening title appears.",
+          "Drag the effect onto the timeline and line it up with that moment. Zoom in if you need to place it exactly.",
+          "Play across that moment. If the effect is late or early, drag it left or right.",
+          "Use only one or two effects in the whole project. A third one is usually too many."
         ]
       },
       {
-        "title": "Balance volume and fades",
+        "title": "Balance volume and add fades",
         "steps": [
-          "Click the music clip so it is selected.",
-          "Find the volume control (a slider or a line through the audio clip). Drag it down so the music is quiet under talking.",
-          "A good test: you can still hear the words clearly with headphones on.",
-          "Hover near the start of the music clip until a fade handle appears. Drag it right to fade in.",
-          "Do the same at the end to fade out instead of cutting the music off."
+          "Click the long music bar so it is selected.",
+          "Look at the clip. A horizontal volume line runs through the audio. Drag that line down to lower the music.",
+          "If you cannot see a line, look above the Viewer for a volume slider while the music clip is selected. Drag it left.",
+          "Play a talking clip with headphones. You must hear every word. If you cannot, lower the music more.",
+          "Move the pointer to the top-left corner of the music clip. A small fade handle appears. Drag it to the right about one second. That is a fade in.",
+          "Do the same at the top-right corner, dragging left for a fade out, so the music does not slam off.",
+          "Select a sound effect and lower it if it makes you jump. Effects should support, not scare."
         ]
       }
     ],
@@ -413,7 +495,8 @@ const LESSONS = [
     ],
     "tips": [
       "Students often crank music because it feels exciting. Model a quiet mix.",
-      "If they cannot find the volume line, select the clip and look above the Viewer for audio controls."
+      "If they cannot find the volume line, select the clip and look above the Viewer for audio controls.",
+      "Theme music that already matches an iMovie trailer can feel too “template.” Prefer a simpler soundtrack for a Movie project."
     ]
   },
   {
@@ -436,32 +519,43 @@ const LESSONS = [
       {
         "title": "Write the words first",
         "steps": [
-          "On paper or in Notes, write 2–4 short sentences. Example: “This is how I pack my bag. First the binder. Then the water bottle.”",
-          "Read them out loud once. If you run out of breath, the sentences are too long. Cut words.",
-          "Mark on the timeline (with the playhead) where talking should start."
+          "Open Notes, or use a paper slip. Do not record until the words are written.",
+          "Write 2–4 short sentences. Example: “This is how I pack my bag. First the binder. Then the water bottle. Last, I zip it up.”",
+          "Read them out loud once at your desk. If you run out of breath, cut words. Grade 5 voiceovers are stronger when they are short.",
+          "On the timeline, click the spot where talking should start. The playhead marks that spot. You might start after the opening title."
         ]
       },
       {
-        "title": "Record the voiceover",
+        "title": "Get ready to record",
         "steps": [
-          "Click on the timeline so the playhead sits where narration should begin.",
-          "Click the microphone / Record Voiceover button under the Viewer.",
-          "A recording strip appears. Check that the input is the MacBook microphone.",
-          "If there is a Mute Project checkbox, turn it on so old audio does not leak into the new recording.",
-          "Click the red Record button. You will usually hear a short countdown.",
-          "Speak slightly slower than conversation speed. Smile — it changes how you sound.",
-          "Click Record again, or press spacebar, to stop.",
-          "A green (or colored) voiceover clip appears on the timeline, attached to that moment."
+          "Put on headphones. They help you hear yourself and stop extra room noise from confusing you.",
+          "Sit still. Keep hands off the laptop keys and the desk. Taps record as loud thumps.",
+          "Find the Voiceover button under the Viewer. It looks like a microphone. Click it once.",
+          "A recording strip or meter appears. Check that the input says MacBook Microphone or Built-in Microphone — not an old pair of AirPods you are not wearing.",
+          "If you see Mute Project or a similar checkbox, turn it on so old audio does not leak into the new recording.",
+          "If macOS asks for microphone access, click Allow. If the meter does not bounce when you whisper, raise your hand."
         ]
       },
       {
-        "title": "Fix a bad take",
+        "title": "Record the take",
         "steps": [
-          "Play the voiceover. Listen for “ums,” rustling, or a voice that is too quiet.",
-          "If it is not good enough, click the voiceover clip and press Delete.",
-          "Place the playhead again and record a new take. It is normal to record two or three times.",
-          "Select the finished voiceover and raise its volume until it is clearly louder than the music.",
-          "Lower the music a little more under the spoken section if needed."
+          "Click the red Record button. iMovie usually counts down 3, 2, 1. Use that time to take a breath. Do not start talking during the countdown.",
+          "When recording starts, speak slightly slower than conversation speed. Pretend you are reading to a younger student.",
+          "Smile while you talk. It changes how you sound, even if the camera is not on you.",
+          "When the last word is done, wait half a second, then click Record again (or press spacebar) to stop.",
+          "A green (or coloured) voiceover bar appears on the timeline, lined up with that moment.",
+          "Move the playhead before the bar and play. Listen all the way through once without stopping."
+        ]
+      },
+      {
+        "title": "Fix a bad take and balance the mix",
+        "steps": [
+          "Ask: Can I hear every word? Are there “ums,” rustles, or a laugh at the start?",
+          "If it is not good enough, click the voiceover bar and press Delete. The take is gone. That is normal. Pros record several times.",
+          "Place the playhead at the same start point. Record a new take. Two or three tries is expected.",
+          "When you keep a take, click it and raise its volume until it is clearly louder than the music.",
+          "Select the music bar and lower it a little more under the spoken section. Voice wins every time.",
+          "Trim the start and end of the voiceover bar if there is dead air, using the same yellow handles you used on video."
         ]
       }
     ],
@@ -476,7 +570,8 @@ const LESSONS = [
     ],
     "tips": [
       "Send two students at a time to a quieter hallway if the class is loud.",
-      "Hold the laptop steady; do not tap the desk while recording."
+      "Hold the laptop steady; do not tap the desk while recording.",
+      "If the Voiceover button is grey, click the timeline first so iMovie knows where to place the take."
     ]
   },
   {
@@ -486,54 +581,85 @@ const LESSONS = [
     "duration": "30–40 min",
     "skill": "Still images in motion",
     "objectives": [
+      "Save approved images from the internet into a project folder",
       "Add photos to a video timeline",
       "Apply a slow Ken Burns zoom or pan that helps the story"
     ],
     "youWillNeed": [
-      "2–3 photos (from Photos, a class folder, or a still from the camera)"
+      "2–3 photos (from Photos, a class folder, camera stills, or approved internet images)",
+      "Safari and a Finder folder named Photos_YourName"
     ],
     "warmup": "Show a frozen photo, then the same photo with a slow zoom. Which feels more like a movie?",
     "groups": [
       {
-        "title": "Add a photo to the timeline",
+        "title": "Save images from the internet the right way",
+        "intro": "Only use sites the teacher allows. We do not copy random pictures we do not have the right to use.",
         "steps": [
-          "Import the photo the same way you import video: Import Media, or drag from Photos.",
-          "Drag the photo onto the timeline where you want it. iMovie treats it like a clip, usually a few seconds long.",
-          "Drag either end of the photo clip to change how long it stays on screen (4–6 seconds is a good start)."
+          "Click the Finder icon in the Dock (blue-grey smiling face).",
+          "In the menu bar choose File → New Folder. Name it Photos_YourName. Put it in Documents or on the Desktop — wherever the teacher said.",
+          "Open Safari. Go only to the teacher’s approved site (for example a Creative Commons search, Wikimedia Commons, or a class page).",
+          "Find one image that matches your story. Click it so it is large enough to see clearly.",
+          "Hold Control and click the image (or click with two fingers on the trackpad). A menu appears.",
+          "Click Save Image As… (or Download Image). Do not pick Add to Photos unless the teacher says so.",
+          "In the save window, give the file a real name, like soccer_ball.jpg, not image(1).jpg.",
+          "On the left, choose your Photos_YourName folder. Click Save.",
+          "Repeat until you have 2–3 images. Then go back to Finder and open the folder. Confirm the files are there and the pictures preview.",
+          "Write down the source (site name) on paper if the teacher asked for attribution."
+        ]
+      },
+      {
+        "title": "Import the photos into iMovie",
+        "steps": [
+          "Open your iMovie project.",
+          "Click Import Media. In the left sidebar click Documents or Desktop and open Photos_YourName.",
+          "Select your photos (Command-click to pick more than one). Click Import Selected.",
+          "The photos appear in Project Media. Click one. It should show in the Viewer as a still picture.",
+          "You can also drag a photo from Finder straight into Project Media, then onto the timeline."
+        ]
+      },
+      {
+        "title": "Place a photo on the timeline and set its length",
+        "steps": [
+          "Drag a photo onto the timeline where you want the audience to see it — for example after your introduction.",
+          "iMovie treats it like a clip, often 4 seconds long. Click it (yellow border).",
+          "Drag the right edge until it lasts 4–6 seconds. Count it out. Shorter than 3 seconds is too fast to look at.",
+          "Play across the photo. Then play the joins before and after so the cut does not feel sudden. A Cross Dissolve can help here."
         ]
       },
       {
         "title": "Turn on Ken Burns",
         "steps": [
-          "Click the photo clip so it is selected.",
-          "Above the Viewer, click the Cropping button (two overlapping corners).",
-          "Click Ken Burns.",
-          "Two rectangles appear on the photo: Start and End."
+          "Select the photo clip on the timeline.",
+          "Above the Viewer, click Cropping (two overlapping right angles / corners).",
+          "Three choices appear: Fit, Crop to Fill, and Ken Burns. Click Ken Burns.",
+          "Two rectangles overlay the photo: Start and End. Start is where the motion begins. End is where it finishes."
         ]
       },
       {
-        "title": "Set the start and end frames",
+        "title": "Set a slow start and end",
         "steps": [
-          "Click the Start rectangle. Resize and drag it to the part of the photo that should show first. Keep important faces away from the very edge.",
-          "Click the End rectangle. Move it to a slightly different crop — a little closer, or a slow pan toward the important object.",
-          "Keep the movement small. A huge zoom looks dizzy.",
-          "Click Apply (checkmark).",
-          "Play the photo. You should see a smooth, gentle motion.",
-          "If it feels wrong, open Cropping → Ken Burns again and adjust, or click Reset."
+          "Click the Start rectangle. Drag its corners to frame the whole scene, or a slightly wide view. Keep faces away from the very edge.",
+          "Click the End rectangle. Make it a little smaller and drag it toward the important detail — a face, an object, a title in the photo.",
+          "Keep the movement small. If End is a tiny box in the corner, the zoom will feel dizzy. Aim for a gentle push-in.",
+          "Click the checkmark / Apply button.",
+          "Play the photo. You should see a smooth, slow motion. If it jumps or races, open Cropping → Ken Burns again and make Start and End more similar.",
+          "If you hate it, click Reset in the crop tools, then Apply, and the photo sits still. Still is better than wild."
         ]
       }
     ],
     "practice": [
-      "Add 2–3 photos and give each a purposeful Ken Burns move.",
+      "Save 2–3 approved images, import them, and give each a purposeful Ken Burns move — or leave one still on purpose.",
       "Mix photos with video so the movie does not jump from freeze to freeze."
     ],
     "check": [
+      "Images live in a named Finder folder, not only in a Safari download pile.",
       "Photos last long enough to be seen.",
       "Motion is slow and has a reason (show a detail, reveal a whole scene)."
     ],
     "tips": [
       "A good default: start wider, end a little closer on the subject.",
-      "Do not Ken Burns every photo in a different wild direction."
+      "Do not Ken Burns every photo in a different wild direction.",
+      "Block unsaved memes. If a student cannot name the source, they should not use the image."
     ]
   },
   {
@@ -552,26 +678,37 @@ const LESSONS = [
     "warmup": "Show the same shot with no filter, a heavy comic filter, and a light color tweak. Vote on which looks most like a real student film.",
     "groups": [
       {
-        "title": "Open clip filters",
+        "title": "Select one clip and open filters",
         "steps": [
-          "Select a clip on the timeline.",
-          "Above the Viewer, click the Clip Filter button (often three overlapping circles) or the color / adjustment controls.",
-          "A list of filters appears. Click one to preview it live in the Viewer."
+          "Click one video clip on the timeline — not the whole movie, not a title. Yellow border on that clip only.",
+          "Look above the Viewer for clip tools. Find Clip Filter (often three overlapping circles) or a button whose tooltip says Clip Filter.",
+          "Click it. A list of filters appears: None, plus looks such as Comic, Aged Film, Dream, Hard Light, and others. Names vary by iMovie version.",
+          "Click None first so you remember the original picture."
         ]
       },
       {
-        "title": "Try, then decide",
+        "title": "Preview, then decide",
         "steps": [
-          "Click through a few filters: a gentle warm look, a black-and-white look, a vintage look.",
+          "Click one gentle filter. Watch the Viewer. Play a second of the clip.",
+          "Click a heavy filter (comic, sci-fi, extreme black-and-white). Play a second.",
           "Ask out loud: Does this help the feeling of the story, or is it just decoration?",
-          "If it helps, leave it on that one clip only.",
-          "If it distracts, click None or the original style to remove it.",
-          "Do not apply a heavy filter to the entire movie."
+          "If it helps one moment — for example black-and-white on an old photo story — leave it on that one clip only.",
+          "If it distracts, click None to remove it. Removing an effect is a professional choice.",
+          "Do not apply a heavy filter to every clip. One or two treated clips is the maximum for this unit."
+        ]
+      },
+      {
+        "title": "Optional: a small color tweak",
+        "steps": [
+          "With the clip selected, look for Color Correction or Adjustment tools above the Viewer (sliders for exposure or color).",
+          "If a clip is a little dark, drag exposure or brightness slightly up until faces are visible. Stop as soon as you can see eyes.",
+          "If you go too far, the picture looks faded or fake. Command + Z, then try a smaller move.",
+          "Do not use colour tools to turn the whole movie neon. This is a fix, not a party trick."
         ]
       }
     ],
     "practice": [
-      "Experiment on one or two clips only.",
+      "Experiment on one or two clips only, then watch the whole movie.",
       "Class discussion: When does an effect help, and when does it distract?"
     ],
     "check": [
@@ -579,7 +716,8 @@ const LESSONS = [
       "The student can say why they kept or removed it."
     ],
     "tips": [
-      "Praise students who choose no filter. Restraint is a skill."
+      "Praise students who choose no filter. Restraint is a skill.",
+      "If the whole timeline looks filtered, they may have applied an effect to a connected clip group — undo and select one clip at a time."
     ]
   },
   {
@@ -598,23 +736,34 @@ const LESSONS = [
     "warmup": "Mime brushing teeth in slow motion, then super fast. When would each speed help a movie?",
     "groups": [
       {
+        "title": "Pick the right clip",
+        "steps": [
+          "Find a clip with action you can see: walking, showing an object, a high-five, packing a bag. Not a talking-head of full sentences.",
+          "Click that clip. Play it once at normal speed so you remember what “normal” looks like.",
+          "If the clip also has important speech, duplicate the idea: speed is for action, not for words we must understand."
+        ]
+      },
+      {
         "title": "Change clip speed",
         "steps": [
-          "Select the clip.",
-          "Click the Speed button above the Viewer (speedometer, or tortoise and hare).",
-          "Choose Slow for a careful or dramatic moment, or Fast for energy or passing time.",
-          "If a percentage menu appears, start with a mild change (for example 50% slow or 2x fast) rather than the extreme.",
-          "Play the clip. If speech becomes hard to understand, do not speed talking clips — only action."
+          "With the clip selected, click Speed above the Viewer. It looks like a speedometer, or a rabbit and tortoise.",
+          "A menu appears with choices such as Normal, Slow, Fast, and Freeze Frame.",
+          "Click Slow for a careful or dramatic moment. Play it. If iMovie offers a percentage, start around 50% — half speed — not the slowest option.",
+          "Command + Z to return to Normal, then try Fast. If a percentage or rabbit icon offers 2x, start there, not 8x.",
+          "Watch the clip. If a voice sounds like a chipmunk, undo. Do not speed talking clips.",
+          "You know it worked if the action is easier to see (slow) or time clearly passes (fast), and the rest of the movie still makes sense."
         ]
       },
       {
         "title": "Freeze an important frame",
         "steps": [
-          "Play the clip and pause on the exact frame you want to hold (a proud pose, a finished product, a key object).",
-          "Open Speed and choose Freeze Frame.",
-          "iMovie inserts a still that stays on screen for a few seconds.",
-          "Drag the ends of the freeze to make it shorter or longer (1–3 seconds is usually enough).",
-          "You can place a title over the freeze if you want the audience to notice that moment."
+          "Play the action clip. Pause on the exact frame you want the audience to notice: a proud pose, a finished product, a key object. Use arrow keys to nudge.",
+          "Open Speed again. Click Freeze Frame.",
+          "iMovie inserts a still picture that holds for a few seconds. On the timeline you will see a new little clip or a held segment.",
+          "Click that freeze. Drag its ends so it lasts 1–3 seconds. Longer than 4 seconds usually feels stuck.",
+          "Play from before the freeze through to after it. The motion should stop, hold, then continue (or cut) on purpose.",
+          "Optional: drop a short title on top of the freeze if you want to label the moment, then keep both on screen long enough to read.",
+          "If Freeze Frame is grey, click the video clip itself, not a title or a music bar."
         ]
       }
     ],
@@ -627,7 +776,8 @@ const LESSONS = [
       "Speech clips are still understandable."
     ],
     "tips": [
-      "Fast-forwarding a whole talking-head video is almost never a good idea."
+      "Fast-forwarding a whole talking-head video is almost never a good idea.",
+      "A freeze on a blurry frame looks worse, not better — pick a sharp frame."
     ]
   },
   {
@@ -646,32 +796,44 @@ const LESSONS = [
     "warmup": "Name the parts of a story: hook, middle, ending. Trailers use the same idea in a tiny package.",
     "groups": [
       {
-        "title": "Start a Trailer project",
+        "title": "Leave your Movie and start a Trailer",
         "steps": [
-          "Click Projects in the top left to leave your Movie project. Your old project is still saved.",
-          "Click Create New → Trailer.",
-          "Browse templates. Click one to preview the music and pacing.",
-          "Choose a kid-friendly style such as Adventure, Friendship, Documentary, or similar — not a scary or age-mismatched template.",
-          "Click Create."
+          "Click Projects in the top left. Your Movie is saved. You are not deleting it.",
+          "Click Create New. This time choose Trailer, not Movie.",
+          "A grid of trailer templates appears. Click one. A preview plays with sample people and music.",
+          "Watch two previews. Pick a kid-friendly style such as Adventure, Friendship, Documentary, or similar. Skip anything scary or mean-looking.",
+          "Click Create. A new project opens with Outline and Storyboard tabs — that is how you know you are in a Trailer, not a Movie.",
+          "Click the project name at the top and rename it TrailerPractice_YourName."
         ]
       },
       {
         "title": "Fill the Outline",
         "steps": [
-          "Click the Outline tab.",
-          "Replace placeholder title, credits, and names with your own words. Do not leave Apple’s sample names.",
-          "Keep titles short so they fit the animation."
+          "Click the Outline tab if it is not already selected.",
+          "You will see placeholder titles, studio names, and credits (sometimes sample names like “Apple”).",
+          "Click each line and replace it with your own words: your title, your name, your “studio” (for example Room 12 Studios).",
+          "Keep titles short. Long sentences get cut off by the animation.",
+          "Do not leave any Apple sample names. Scan the list once more before you leave Outline."
         ]
       },
       {
-        "title": "Fill the Storyboard",
+        "title": "Fill the Storyboard with your media",
         "steps": [
-          "Click the Storyboard tab. Each box asks for a kind of shot: Title, Action, Close-up, Group, and so on.",
-          "From the media browser, drag your own clip or photo into a placeholder.",
-          "iMovie will use only a short piece of each clip. That is normal for trailers.",
-          "Fill every required placeholder. Empty boxes leave black holes in the trailer.",
-          "Click Play Trailer and watch the whole thing.",
-          "Replace any shot that does not match the caption or mood."
+          "Click the Storyboard tab. A comic-strip of boxes appears. Each box asks for a kind of shot: Title, Action, Close-up, Wide, Group, Landscape, and so on.",
+          "On the left, find your own clips and photos. If they are missing, use Import Media and bring them in now.",
+          "Drag your first clip onto the first empty picture placeholder. iMovie grabs a short piece — that is normal. Trailers are fast.",
+          "To choose a better moment inside a long clip, click the placeholder after dropping, then drag the yellow selection in the filmstrip until the best action is inside the box.",
+          "Fill every required placeholder. Empty boxes play as black holes.",
+          "If a box asks for a Close-up, use a face or an object, not a wide shot of the whole classroom."
+        ]
+      },
+      {
+        "title": "Play, fix, and name beginning-middle-end",
+        "steps": [
+          "Click Play Trailer (or press spacebar from the start). Watch the whole thing without stopping.",
+          "Jot one shot that does not match its caption. Replace that placeholder only.",
+          "On paper, label three shots: Hook (beginning), Problem or action (middle), Payoff (ending).",
+          "If the ending feels weak, put your strongest smile, product, or title card in the last picture box."
         ]
       }
     ],
@@ -686,7 +848,8 @@ const LESSONS = [
     ],
     "tips": [
       "Trailers are excellent for students who struggle to structure a story from a blank timeline.",
-      "Remind them this is a separate project — it does not overwrite their Movie."
+      "Remind them this is a separate project — it does not overwrite their Movie.",
+      "Students may try to drop the same clip in every box. Require at least four different shots."
     ]
   },
   {
@@ -705,31 +868,42 @@ const LESSONS = [
     "warmup": "Teachers model a “cold watch”: no pausing, notepad of three problems, then fix them.",
     "groups": [
       {
-        "title": "Cold watch",
+        "title": "Do a cold watch",
         "steps": [
-          "Move the playhead to the start. Press spacebar. Do not stop until the end.",
-          "On paper, jot anything that feels too long, too quiet, misspelled, or confusing."
+          "Open the project you will hand in soon. Put the playhead at the first frame.",
+          "Take out paper. Draw three boxes: Too long / Hard to hear or read / Confusing.",
+          "Press spacebar. Do not pause until the end, even if you spot a mistake. Real audiences do not rewind for you.",
+          "When it finishes, write at least one note in a box. If you wrote nothing, watch once more — every draft has something to fix."
         ]
       },
       {
         "title": "Work the polishing checklist",
         "steps": [
-          "Titles: readable, 3–5 seconds, spelled correctly.",
-          "Audio: voice clear, music under speech, fades at the ends.",
-          "Picture: no leftover shaky heads or long empty pauses.",
-          "Story: a clear beginning, middle, and ending.",
-          "Last shot: a strong final image or end title, not an accidental cutoff.",
-          "Fix each note from the cold watch using trim, split, volume, or titles."
+          "Titles: click each purple bar. Spell-check. Confirm 3–5 seconds on screen. Partner-read the opening title.",
+          "Audio: headphones on. Voice must beat music. Add fades to the music ends if they slam. Delete extra sound effects.",
+          "Picture: trim leftover shaky starts and empty pauses. Split out coughs. Aim for no dead air longer than one second.",
+          "Story: say the beginning, middle, and end in one sentence each. If you cannot, rearrange or cut.",
+          "Last shot: the movie should end on a title or a strong image, not a random cutoff. Add end text if it is missing.",
+          "Fix the notes from the cold watch one by one. After each fix, play just that section, then move on."
+        ]
+      },
+      {
+        "title": "Tidy the project so you can find it",
+        "steps": [
+          "Click Projects. Confirm the poster name is FirstName_ProjectName, not My Movie or Untitled.",
+          "If you have leftover practice projects, leave them, but do not export those. Star or remember the real one.",
+          "Play the first 5 seconds. That is what YouTube and Instagram audiences decide on. If it is slow, trim the opening."
         ]
       },
       {
         "title": "Optional challenge: Picture-in-Picture",
+        "intro": "Skip this if the movie is not already clear. Simple and polished beats crowded.",
         "steps": [
-          "Drag a second clip onto the timeline above the main video clip so it overlays.",
-          "Select the upper clip.",
-          "Open Video Overlay Settings above the Viewer and choose Picture in Picture.",
-          "In the Viewer, drag the inset video to a corner and resize it so it does not cover faces.",
-          "If it looks messy, delete the overlay. Polished and simple beats crowded."
+          "From Project Media, drag a second clip onto the timeline and drop it above the main video clip so it sits on a higher layer.",
+          "Click that upper clip. If it covers the whole Viewer, it is a cutaway, not a small inset yet.",
+          "Above the Viewer, open Video Overlay Settings (overlapping rectangles). Choose Picture in Picture.",
+          "In the Viewer, a small video box appears. Drag it to a corner. Drag a corner handle to resize. Do not cover faces.",
+          "Play the overlap. If it looks messy, click the overlay clip and press Delete. Returning to a clean movie is a good choice."
         ]
       }
     ],
@@ -742,7 +916,8 @@ const LESSONS = [
       "Audio and titles pass the checklist."
     ],
     "tips": [
-      "Time-box the overlay challenge so perfectionism does not eat the period."
+      "Time-box the overlay challenge so perfectionism does not eat the period.",
+      "Have a 5-minute “headphones silent mix” so volume problems show up before export day."
     ]
   },
   {
@@ -764,31 +939,53 @@ const LESSONS = [
       {
         "title": "Final check before export",
         "steps": [
-          "Watch the entire project once more.",
-          "Confirm titles, audio, ending, and spelling.",
-          "If anything is still wrong, fix it now. Exporting does not lock you out — you can export again — but it wastes time."
+          "Open the finished project. Click Projects if you are in the wrong one.",
+          "Play the entire movie once with headphones. No pausing.",
+          "Confirm: titles spelled, voice over music, a real ending, no black holes.",
+          "If anything is still wrong, fix it now. You can export more than once, but waiting for a second export eats class time."
         ]
       },
       {
-        "title": "Export a social-media-ready file",
+        "title": "Share a 1080p file",
         "steps": [
-          "Click the Share button in the top-right corner of iMovie (square with an arrow), or choose File → Share → File.",
-          "Choose File.",
-          "Set Resolution to 1080p. This quality works well for both YouTube and Instagram.",
-          "Leave Quality on High unless the teacher says otherwise.",
-          "Click Next.",
-          "Name the file clearly, for example Alex_FinalShowcase_2026.mp4. No spaces-only names like Untitled.",
-          "Choose a save location the teacher has specified (Desktop, Documents, or a class folder).",
-          "Click Save. A progress circle appears. Do not quit iMovie until it finishes.",
-          "When it is done, find the file in Finder and play it in QuickTime to confirm it works outside iMovie."
+          "Click the Share button in the top-right of the iMovie window. It looks like a square with an upward arrow. You can also choose File → Share → File from the menu bar.",
+          "A sheet appears with destinations. Click File. Do not pick Email, YouTube, or Messages unless the teacher says so. File makes an .mp4 on the Mac.",
+          "Look at Resolution. Click it and choose 1080p. That is HD, and it works for YouTube and Instagram.",
+          "Look at Quality. Leave it on High unless the teacher says otherwise.",
+          "Look at Compress using. Leave the default.",
+          "Click Next. A Save window opens.",
+          "Click the Name field. Delete Untitled. Type FirstName_FinalShowcase_2026, for example Alex_FinalShowcase_2026. Use underscores, not a long sentence.",
+          "On the left of the Save window, click the folder the teacher named: Desktop, Documents, or a class folder. If you save to a random place, the teacher cannot collect it.",
+          "Click Save. A small circular progress indicator appears. Do not quit iMovie, close the lid, or log out until it finishes.",
+          "When iMovie says the share is complete (or the circle disappears), you are ready to check the file."
         ]
       },
       {
-        "title": "Reflect",
+        "title": "Prove the file works outside iMovie",
         "steps": [
-          "Write or discuss: What makes my video ready to share online?",
-          "Write: One editing skill I am proud of.",
-          "Write: One thing I would do differently next time."
+          "Click Finder. Go to the folder you saved in.",
+          "Find the .mp4. It should have your name in the title and a movie icon.",
+          "Double-click it. It should open in QuickTime Player, not iMovie.",
+          "Play the first 10 seconds and jump to the end. If it plays, the export worked. If it will not open, go back to iMovie and Share → File again.",
+          "Do not delete the iMovie project until the teacher has the .mp4. The project is your edit; the .mp4 is the hand-in."
+        ]
+      },
+      {
+        "title": "Social platforms and privacy",
+        "steps": [
+          "YouTube likes a clear first 5 seconds and a readable title. Our 1080p widescreen file is the right shape.",
+          "Instagram feed also accepts this widescreen file. Aim for about 60–90 seconds if the teacher is posting a short version. Vertical Reels are not required in this unit.",
+          "Never post a classmate’s face without their permission and a teacher’s okay. Privacy is part of the grade, not an extra.",
+          "If the teacher collects files instead of posting, that still counts as sharing — a real audience will see it."
+        ]
+      },
+      {
+        "title": "Reflect and celebrate",
+        "steps": [
+          "On paper, finish this sentence: My video is ready to share because…",
+          "Write one editing skill you are proud of (example: “I trimmed the ums” or “I ducked the music”).",
+          "Write one thing you would do differently next time.",
+          "If the teacher runs a gallery walk, play your .mp4, not the iMovie project, so it works on any Mac."
         ]
       }
     ],
@@ -804,7 +1001,8 @@ const LESSONS = [
     "tips": [
       "Videos under 90 seconds usually work best for Instagram. YouTube can be longer, but the first 5–10 seconds still matter.",
       "Never post a classmate’s face without permission. Privacy settings are part of the lesson, not an afterthought.",
-      "If export is greyed out, the timeline may be empty or iMovie is still rendering — wait, then try again."
+      "If export is greyed out, the timeline may be empty or iMovie is still rendering — wait, then try again.",
+      "Walk the room and look at Finder, not only iMovie, before students leave."
     ]
   }
 ];
