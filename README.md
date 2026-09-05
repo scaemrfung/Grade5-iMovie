@@ -4,23 +4,15 @@ MacBook-only iMovie unit for Grade 5.
 
 **Live site:** https://scaemrfung.github.io/Grade5-iMovie/
 
-Fourteen lessons and four projects. Open a lesson, teach the numbered steps, and students leave with a clip on the timeline. Progress stamps save in the browser — no login.
+Same classroom layout as Grade 6 Tech · Canva: course map, sidebar lessons, Teacher/Student view.
 
-Cool classroom-blue theme.
+Thirteen lessons and four projects. Open a lesson, teach the numbered steps, and students leave with a clip on the timeline.
 
-## Units
+## Classroom pages
 
-1. Getting started (Lessons 1–3) — interface, import, camera, saving images
-2. Editing basics (Lessons 4–6) — trim, split, transitions, titles
-3. Sound (Lessons 7–8) — music, effects, voiceovers
-4. Visual craft (Lessons 9–11) — Ken Burns, filters, speed, freeze frames
-5. Story and share (Lessons 12–14) — trailers, polish, export for YouTube and Instagram
-
-## Projects
-
-1. All About Me
-2. How-To or A Day in My Life
-3. Mini Story or Trailer
-4. Final Showcase
-
-Open `index.html` in any browser if you are not using GitHub Pages.
+- Course map
+- How to teach
+- Lessons 1–13
+- Hand-in projects
+- Final showcase
+- Teacher hub

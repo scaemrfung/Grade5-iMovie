@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project · Grade 5 iMovie</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;650;700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const n = Number(new URLSearchParams(location.search).get("n") || 1);
+    const project = PROJECTS.find((p) => p.number === n) || PROJECTS[0];
+    document.title = "Project " + project.number + " · " + project.title;
+    const prev = PROJECTS.find((p) => p.number === project.number - 1);
+    const next = PROJECTS.find((p) => p.number === project.number + 1);
+    const levels = ["1 Beginning","2 Developing","3 Proficient","4 Extending"];
+    const groups = project.groups.map((g) => `
+      <div class="note"><h3>${g.title}</h3>${g.intro ? "<p>" + g.intro + "</p>" : ""}<ol class="steps">${g.steps.map((s) => "<li>" + s + "</li>").join("")}</ol></div>
+    `).join("");
+    const rubric = project.assessment.categories.map((c) => `
+      <div style="margin-top:14px;"><p><strong>${c.name}</strong></p>
+      ${c.levels.map((level, i) => "<p><em>" + levels[i] + ".</em> " + level + "</p>").join("")}</div>
+    `).join("");
+    document.getElementById("app").innerHTML = `
+      <div style="display:flex;justify-content:space-between;gap:16px;align-items:flex-start;">
+        <div>
+          <p class="kicker">Project ${project.number} · ${project.length}</p>
+          <h1>${project.title}</h1>
+          <p class="lead">${project.timing} · ${project.summary}</p>
+        </div>
+        <div class="toolbar"><button class="ghost-btn" onclick="window.print()">Print</button></div>
+      </div>
+      <div class="actions">
+        ${prev ? '<a class="btn btn-ghost" href="project.html?n=' + prev.number + '">← Project ' + prev.number + "</a>" : '<a class="btn btn-ghost" href="projects.html">All projects</a>'}
+        ${next ? '<a class="btn btn-primary" href="project.html?n=' + next.number + '">Project ' + next.number + " →</a>" : '<a class="btn btn-primary" href="lesson.html?n=13">Export lesson →</a>'}
+      </div>
+      <div class="note"><h3>Audience</h3><p>${project.audience}</p></div>
+      <div class="note"><h3>Must include</h3><ul>${project.mustInclude.map((i) => "<li>" + i + "</li>").join("")}</ul></div>
+      <div class="note"><h3>Plan first</h3><ol class="steps">${project.planning.map((i) => "<li>" + i + "</li>").join("")}</ol></div>
+      ${groups}
+      <div class="note"><h3>Export</h3><ol class="steps">${project.exportSteps.map((i) => "<li>" + i + "</li>").join("")}</ol></div>
+      <div class="note"><h3>Student self-check</h3><ul>${project.assessment.selfCheck.map((i) => "<li>" + i + "</li>").join("")}</ul></div>
+      <div class="note teacher-only"><h3>Rubric</h3><p>${project.assessment.passing}</p>${rubric}</div>
+    `;
+  </script>
+</body>
+</html>
