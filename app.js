@@ -1,3 +1,4 @@
+(function(){if(!document.querySelector('link[href="palette.css"]')){var l=document.createElement("link");l.rel="stylesheet";l.href="palette.css";document.head.appendChild(l);}})();
 function currentPage() {
   const file = (location.pathname.split("/").pop() || "index.html").replace(/\.html$/, "") || "index";
   return file === "index" ? "index" : file;
