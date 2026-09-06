@@ -26,7 +26,7 @@
         <p>${p.summary}</p>
         <p><strong>Must include</strong></p>
         <ul>${p.mustInclude.map((m) => "<li>" + m + "</li>").join("")}</ul>
-        <div class="teacher-only"><p><strong>Rubric</strong></p><p>${p.assessment.passing}</p></div>
+        <div><p><strong>Rubric</strong></p><p>${p.assessment.passing}</p></div>
         <p><a href="project.html?n=${p.number}">Open full walkthrough →</a></p>
       </div>
     `).join("");

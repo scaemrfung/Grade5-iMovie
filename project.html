@@ -46,7 +46,7 @@
       ${groups}
       <div class="note"><h3>Export</h3><ol class="steps">${project.exportSteps.map((i) => "<li>" + i + "</li>").join("")}</ol></div>
       <div class="note"><h3>Student self-check</h3><ul>${project.assessment.selfCheck.map((i) => "<li>" + i + "</li>").join("")}</ul></div>
-      <div class="note teacher-only"><h3>Rubric</h3><p>${project.assessment.passing}</p>${rubric}</div>
+      <div class="note"><h3>Rubric</h3><p>${project.assessment.passing}</p>${rubric}</div>
     `;
   </script>
 </body>

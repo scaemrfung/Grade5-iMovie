@@ -21,8 +21,7 @@
     const next = LESSONS.find((l) => l.number === lesson.number + 1);
     const groups = lesson.groups.map((g) => `
       <div class="note">
-        <h3 class="teacher-only">Student steps · ${g.title}</h3>
-        <h3 class="student-only">Your steps · ${g.title}</h3>
+        <h3>${g.title}</h3>
         ${g.intro ? "<p>" + g.intro + "</p>" : ""}
         <ol class="steps">${g.steps.map((s) => "<li>" + s + "</li>").join("")}</ol>
       </div>
@@ -40,7 +39,7 @@
         ${prev ? '<a class="btn btn-ghost" href="lesson.html?n=' + prev.number + '">← Lesson ' + prev.number + "</a>" : '<a class="btn btn-ghost" href="index.html">Course map</a>'}
         ${next ? '<a class="btn btn-primary" href="lesson.html?n=' + next.number + '">Lesson ' + next.number + " →</a>" : '<a class="btn btn-primary" href="projects.html">Hand-in projects →</a>'}
       </div>
-      <div class="note teacher-only"><h3>Teacher tips</h3><ul>${lesson.tips.map((t) => "<li>" + t + "</li>").join("")}</ul></div>
+      <div class="note"><h3>Teacher tips</h3><ul>${lesson.tips.map((t) => "<li>" + t + "</li>").join("")}</ul></div>
       <div class="note"><h3>Learning goals</h3><ul>${lesson.objectives.map((t) => "<li>" + t + "</li>").join("")}</ul></div>
       <div class="note"><h3>You will need</h3><ul>${lesson.youWillNeed.map((t) => "<li>" + t + "</li>").join("")}</ul></div>
       <div class="note"><h3>Warm-up</h3><p>${lesson.warmup}</p></div>
