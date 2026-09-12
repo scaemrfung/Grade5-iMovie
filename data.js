@@ -3,7 +3,7 @@ const LESSONS = [
     "id": "1",
     "number": 1,
     "title": "Welcome to iMovie — Exploring the Interface",
-    "duration": "30–40 min",
+    "duration": "60 min",
     "skill": "Interface navigation",
     "objectives": [
       "Open iMovie and create a new Movie project",
@@ -99,7 +99,7 @@ const LESSONS = [
     "id": "2",
     "number": 2,
     "title": "Creating a Project, Importing, and Recording",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "Import + MacBook camera",
     "objectives": [
       "Import photos or videos from Photos or Finder",
@@ -187,7 +187,7 @@ const LESSONS = [
     "id": "3",
     "number": 3,
     "title": "Basic Editing — Trim, Split, Delete, Rearrange",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "Core timeline skills",
     "objectives": [
       "Trim clip ends with the yellow handles",
@@ -274,7 +274,7 @@ const LESSONS = [
     "id": "4",
     "number": 4,
     "title": "Transitions and Smooth Flow",
-    "duration": "30–40 min",
+    "duration": "60 min",
     "skill": "Visual flow",
     "objectives": [
       "Add, change, and delete transitions",
@@ -345,7 +345,7 @@ const LESSONS = [
     "id": "5",
     "number": 5,
     "title": "Titles, Text, and Captions",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "On-screen text",
     "objectives": [
       "Add an opening title, a name caption, and end text",
@@ -426,7 +426,7 @@ const LESSONS = [
     "id": "6",
     "number": 6,
     "title": "Music, Sound Effects, and Volume",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "Audio foundation",
     "objectives": [
       "Add one music bed and one or two sound effects from iMovie’s library",
@@ -503,7 +503,7 @@ const LESSONS = [
     "id": "7",
     "number": 7,
     "title": "Voiceovers and Narration",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "MacBook microphone",
     "objectives": [
       "Write a short script and record a voiceover",
@@ -578,7 +578,7 @@ const LESSONS = [
     "id": "8",
     "number": 8,
     "title": "Photos and the Ken Burns Effect",
-    "duration": "30–40 min",
+    "duration": "60 min",
     "skill": "Still images in motion",
     "objectives": [
       "Save approved images from the internet into a project folder",
@@ -666,7 +666,7 @@ const LESSONS = [
     "id": "9",
     "number": 9,
     "title": "Video Effects, Filters, and Simple Color",
-    "duration": "30–40 min",
+    "duration": "60 min",
     "skill": "Visual mood",
     "objectives": [
       "Preview clip filters and color adjustments",
@@ -724,7 +724,7 @@ const LESSONS = [
     "id": "10",
     "number": 10,
     "title": "Speed Changes and Freeze Frames",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "Pacing control",
     "objectives": [
       "Speed up or slow down a clip",
@@ -784,7 +784,7 @@ const LESSONS = [
     "id": "11",
     "number": 11,
     "title": "iMovie Trailers and Structured Storytelling",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "Templates and story structure",
     "objectives": [
       "Create a Trailer project from a template",
@@ -856,7 +856,7 @@ const LESSONS = [
     "id": "12",
     "number": 12,
     "title": "Polishing, Organizing, and Optional Overlays",
-    "duration": "35–45 min",
+    "duration": "60 min",
     "skill": "Final refinements",
     "objectives": [
       "Watch the whole film critically and fix pacing, titles, and audio",
@@ -924,7 +924,7 @@ const LESSONS = [
     "id": "13",
     "number": 13,
     "title": "Exporting, Sharing, Reflecting, and Celebration",
-    "duration": "30–45 min",
+    "duration": "60 min",
     "skill": "Social-media ready export",
     "objectives": [
       "Export a 1080p file with a clear name",
