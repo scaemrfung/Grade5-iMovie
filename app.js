@@ -43,6 +43,45 @@ function header() {
     </nav>
   `;
 }
+function ensureUpdatedStamp(repo) {
+  if (document.querySelector(".site-updated-stamp")) return;
+  var el = document.createElement("div");
+  el.className = "site-updated-stamp no-print";
+  el.setAttribute("aria-label", "Site last updated");
+  el.textContent = "Updated …";
+  document.body.insertBefore(el, document.body.firstChild);
+
+  function formatStamp(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) d = new Date();
+    var formatted = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Edmonton",
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+    }).format(d);
+    return "Updated " + formatted + " MT";
+  }
+
+  function fallback() {
+    el.textContent = formatStamp(document.lastModified || new Date().toISOString());
+  }
+
+  fetch("https://api.github.com/repos/" + repo + "/commits?per_page=1")
+    .then(function (r) {
+      if (!r.ok) throw new Error("bad status");
+      return r.json();
+    })
+    .then(function (data) {
+      var date = data && data[0] && data[0].commit && data[0].commit.committer && data[0].commit.committer.date;
+      if (date) el.textContent = formatStamp(date);
+      else fallback();
+    })
+    .catch(fallback);
+}
+
 function mountChrome() {
   const app = document.getElementById("app");
   const page = app.innerHTML;
@@ -53,5 +92,6 @@ function mountChrome() {
       <main class="main" id="main">${page}</main>
     </div>
   `;
+  ensureUpdatedStamp("scaemrfung/Grade5-iMovie");
 }
 document.addEventListener("DOMContentLoaded", mountChrome);
