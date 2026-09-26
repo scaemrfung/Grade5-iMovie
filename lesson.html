@@ -24,6 +24,8 @@
         <h3>${g.title}</h3>
         ${g.intro ? "<p>" + g.intro + "</p>" : ""}
         <ol class="steps">${g.steps.map((s) => "<li>" + s + "</li>").join("")}</ol>
+        ${g.tips ? "<p><strong>Tips</strong></p><ul>" + g.tips.map((t) => "<li>" + t + "</li>").join("") + "</ul>" : ""}
+        ${g.quickCheck ? "<p><strong>Quick check:</strong> " + g.quickCheck + "</p>" : ""}
       </div>
     `).join("");
     document.getElementById("app").innerHTML = `
