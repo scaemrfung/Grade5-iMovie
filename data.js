@@ -123,6 +123,26 @@ const LESSONS = [
         ]
       },
       {
+        "title": "How to download images from the internet (Mac + Google Chrome)",
+        "intro": "Need a picture for your movie? Save it to the Mac first, then bring it into iMovie.",
+        "steps": [
+          "Open Google Chrome and search Google Images. Click Tools → Usage rights → Creative Commons licenses. Or use a kid-safe free site like Pixabay, Unsplash, or Wikimedia Commons.",
+          "Click the image to open the bigger preview. Do not save the tiny thumbnail.",
+          "Right-click the big image (or Control-click, or click with two fingers on the trackpad) and choose Save Image As….",
+          "Give it a clear name (like Volcano_YourName), choose a folder (Downloads, Desktop, or your project folder), and click Save.",
+          "Find it in Finder → Downloads. You can also click the Chrome downloads icon at the top-right, or press Command + Shift + J.",
+          "Import it into iMovie: drag the file into your project or timeline, or use File → Import Media (steps in the next section)."
+        ],
+        "tips": [
+          "Pick large, high-resolution images so they stay sharp on the big screen.",
+          "If an image saves as .webp and iMovie won’t accept it, open it in Preview and choose File → Export → JPEG or PNG.",
+          "Watermarked images (with a logo or words stamped across them) are a no.",
+          "Give credit: write down the website and creator for your end credits.",
+          "Not sure if an image is OK to use? Ask your teacher."
+        ],
+        "quickCheck": "Can you find your saved image in Finder and see it in iMovie’s Project Media?"
+      },
+      {
         "title": "Import photos or videos already on the Mac",
         "intro": "Use teacher sample files if you do not have your own photos yet.",
         "steps": [
